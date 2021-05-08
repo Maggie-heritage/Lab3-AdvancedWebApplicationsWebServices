@@ -1,0 +1,19 @@
+{
+  "FilePath": "e:\\Eclipse2\\2019\\ASP.NET-ADVANCED\\Labs\\3\\Lab3-ConsumeWebAPI\\ConsumeWebAPI.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

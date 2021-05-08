@@ -1,0 +1,63 @@
+﻿@model ConsumeWebAPI.Model.ToDoItem
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Sites.css" rel="stylesheet" />
+<h2>Details</h2>
+
+<div id="deta">
+    
+    <hr />
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Task)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Task)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Deadline)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Deadline)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Responsible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Responsible)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsComplete)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsComplete)
+        </dd>
+
+    </dl>
+</div>
+
+<p class="links">
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID })
+</p>
+<p class="links">
+    @Html.ActionLink("Back to List", "Index")
+</p>
